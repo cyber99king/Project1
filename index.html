@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello World Im back soon</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a href="#">
+        <i> </i><i> </i>
+        <span >Button</span>
+    </a> 
+
+    <script>
+        let btn = document.querySelector('a');
+    
+        btn.addEventListener('mousemove', e => {
+            let rect = e.target.getBoundingClientRect();
+            let x = ((e.clientX - rect.left) / rect.width) * 100;
+            btn.style.setProperty('--x', x + 'deg');
+        });
+    </script>
+
+    <div class="box"><img class="im" src="image/passport.jpg" alt="" ></div>
+    <div class="box"><img class="im" src="image/passport.jpg" alt=""></div>
+  
+    <script>
+      let box = document.querySelector('div');
+  
+      box.addEventListener('mousemove', e => {
+          let rect = e.target.getBoundingClientRect();
+          let x = ((e.clientX - rect.left) / rect.width) * 100;
+          box.style.setProperty('--x', x + 'deg');
+      });
+  </script>
+    
+  </body>
+</html>
+

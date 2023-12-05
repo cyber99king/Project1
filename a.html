@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="b.css">
+</head>
+<body>
+    <img src="image/logo for new project.png" alt="logo" class="im">
+    
+    <br>
+    <nav>
+        <a href="#">দৈনন্দিন জীবন</a>
+        <a href="#">খাদ্যাভ্যাস</a>
+        <a href="#">শরীরচর্চা</a>
+        <a href="#">মানসিক স্বাস্থ্য</a>
+        <a href="#">বয়ঃসন্ধি</a>
+        <a href="#">বার্ধক্যবিদ্যা</a>
+        <a href="#">পুষ্টি বিজ্ঞান</a>
+        <a href="#">সংক্রামক রোগ</a>
+        <a href="#">অসংক্রামক রোগ</a>
+        <a href="#">অন্যান্য</a>
+        <div id="markk"> </div>
+    </nav>
+    <script>
+        let marker = document.querySelector('#markk');
+        let item = document.querySelectorAll('nav a');
+  
+        function indicator(e){
+          marker.style.left = e.offsetLeft+'px';
+          marker.style.width= e.offsetWidth+'px';
+        }
+        item.forEach(link => {
+          link.addEventListener('click', (e) =>{
+            indicator(e.target);
+          })
+        })
+      </script>
+<br> <br>
+<!--  div for content content content content content content content -->
+<div class="new">
+    <div class="div"><img src="image/helth (1).jpg" alt="helth1" class="img"><br><br><br><br>
+    <p class="pa">শীতে ত্বক ভালো রাখতে যে ৫টি নিয়ম মেনে চলবেন
+        হিমেল হাওয়া বইছে, আসছে শীত। তাই আগাম প্রস্তুতি দরকার ত্বকের জন্য। আমাদের ত্বক অত্যন্ত সংবেদনশীল। <br><br><a href="#" class="Btn">Read More</a></p>
+    </div>
+    
+    <div class="div"><img src="image/helth (2).jpg" alt="helth2" class="img"><br><br><br><br>
+        <p class="pa">শীতে ত্বক ভালো রাখতে যে ৫টি নিয়ম মেনে চলবেন
+            হিমেল হাওয়া বইছে, আসছে শীত। তাই আগাম প্রস্তুতি দরকার ত্বকের জন্য। আমাদের ত্বক অত্যন্ত সংবেদনশীল। <br><br><a href="#" class="Btn">Read More</a></p>
+    </div>
+
+    <div class="div"><img src="image/helth (3).jpg" alt="helth3" class="img"><br><br><br><br>
+        <p class="pa">শীতে ত্বক ভালো রাখতে যে ৫টি নিয়ম মেনে চলবেন
+            হিমেল হাওয়া বইছে, আসছে শীত। তাই আগাম প্রস্তুতি দরকার ত্বকের জন্য। আমাদের ত্বক অত্যন্ত সংবেদনশীল। <br><br><a href="#" class="Btn">Read More</a></p>
+    </div>
+</div>
+<!-- one more div for content -->
+<div class="new">
+    <div class="div"><img src="image/helth (1).jpg" alt="helth1" class="img"><br><br><br><br>
+    <p class="pa">শীতে ত্বক ভালো রাখতে যে ৫টি নিয়ম মেনে চলবেন
+        হিমেল হাওয়া বইছে, আসছে শীত। তাই আগাম প্রস্তুতি দরকার ত্বকের জন্য। আমাদের ত্বক অত্যন্ত সংবেদনশীল। <br><br><a href="#" class="Btn">Read More</a></p>
+    </div>
+    
+    <div class="div"><img src="image/helth (2).jpg" alt="helth2" class="img"><br><br><br><br>
+        <p class="pa">শীতে ত্বক ভালো রাখতে যে ৫টি নিয়ম মেনে চলবেন
+            হিমেল হাওয়া বইছে, আসছে শীত। তাই আগাম প্রস্তুতি দরকার ত্বকের জন্য। আমাদের ত্বক অত্যন্ত সংবেদনশীল। <br><br><a href="#" class="Btn">Read More</a></p>
+    </div>
+
+    <div class="div"><img src="image/helth (3).jpg" alt="helth3" class="img"><br><br><br><br>
+        <p class="pa">শীতে ত্বক ভালো রাখতে যে ৫টি নিয়ম মেনে চলবেন
+            হিমেল হাওয়া বইছে, আসছে শীত। তাই আগাম প্রস্তুতি দরকার ত্বকের জন্য। আমাদের ত্বক অত্যন্ত সংবেদনশীল। <br><br><a href="#" class="Btn">Read More</a></p>
+    </div>
+</div>
+
+<!-- div for portfoilo profile showing -->
+
+<div>
+    <div class="crd">  
+        <div class="circle" style="--clr: rgb(1, 236, 244);"> 
+            <img src="image/logo for new project.png" alt="log" class="logo"> 
+        </div>
+        <div class="cntnt"> 
+            <h4>Web Designer And Developer</h4>
+            <p>Hello Guys
+                im Professional Web Designer and developer. If you need any service in this field please contact me!
+                <a href="#">Hire me</a>
+            </p>
+            <img class="product_img" src="image/use.png" alt="pic">
+    
+        </div>
+    </div>
+
+
+</div>
+<!-- //**other div for profile add**// -->
+<div>
+  <div class="crd">  
+      <div class="circle" style="--clr: #f401a3;"> 
+          <img src="image/logo for new project.png" alt="log" class="logo"> 
+      </div>
+      <div class="cntnt"> 
+          <h4>Web Designer And Developer</h4>
+          <p>Hello Guys
+              im Professional Web Designer and developer. If you need any service in this field please contact me!
+              <a href="#">Hire me</a>
+          </p>
+          <img class="product_img" src="image/use.png" alt="pic">
+  
+      </div>
+  </div>
+</div>
+<!-- another profile add -->
+<div>
+  <div class="crd">  
+      <div class="circle" style="--clr: #0119f4;"> 
+          <img src="image/logo for new project.png" alt="log" class="logo"> 
+      </div>
+      <div class="cntnt"> 
+          <h4>Web Designer And Developer</h4>
+          <p>Hello Guys
+              im Professional Web Designer and developer. If you need any service in this field please contact me!
+              <a href="#">Hire me</a>
+          </p>
+          <img class="product_img" src="image/use.png" alt="pic">
+        </div>
+  </div>
+</div>
+
+
+    
+</body>
+</html>
