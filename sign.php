@@ -79,6 +79,7 @@
                     // Close connection
                     mysqli_close($link);
                     ?>
+                    <a href="/a.html" class="btn btn-secondary ml-2 pd-2">হোমপেজ</a>
                 </div>
             </div>        
         </div>

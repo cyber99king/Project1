@@ -106,8 +106,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             <span class="invalid-feedback"><?php echo $question_err;?></span>
                         </div>
                         <div class="p-2 ">
-                            <input type="submit" class="btn btn-primary p-2" value="Submit">
-                            <a href="sign.php" class="btn btn-secondary ml-2 p-2">Cancel</a>
+                            <input type="submit" class="btn btn-primary p-2" value="জমা দিন">
+                            <a href="/a.html" class="btn btn-secondary ml-2 p-2">বাতিল করুন</a>
 
                         </div>
                         
