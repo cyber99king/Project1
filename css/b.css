@@ -4,6 +4,20 @@ body{
     
 }
 
+/* ****************sign up butt**************************************** */
+.upin
+{
+    align-items: end;
+    margin-left: 87%;
+    padding-left: 20px;
+    
+}
+
+.sg
+{
+    background-color: aqua;
+    font-size: medium;
+}
 /**nav bar good ccs using*************************************************/
 nav{
     position: relative;
@@ -15,7 +29,7 @@ nav a
 {
     position: relative;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 13px;
     color: #fff;
     font-weight: 400;
     letter-spacing: 0.1em;
@@ -65,14 +79,15 @@ nav a
 
 .img{
     height:250px;
-    width: 400px;
-    margin: -50px;
-    border-radius: 30px;
+    width: 410px;
+    margin: -55px;
+    
 }
 .pa
 {
     color: aqua;
     width: 340px;
+    justify-content: center;
 }
 .Btn
 {
